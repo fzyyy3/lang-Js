@@ -1,0 +1,42 @@
+export default {
+    //自定义字段
+    customCode:{
+        label:{
+            "menuName":"菜单栏名称",
+            "fieldName":"字段名",
+            "fieldLabel":"标签",
+            "fieldType":"格式",
+            "fieldSize":"长度",
+            "limitGeneralCode":"字段代码",
+            "limitGeneralField":"显示字段",
+            "xlsName":"自定义字段.xls",
+            "required":"是否必填"
+        },
+        placeholder:{
+            "menuName":"请选择菜单栏名称",
+            "fieldName":"请输入字段名",
+            "fieldLabel":"请输入标签",
+            "fieldType":"请选择格式",
+            "fieldSize":"请输入长度",
+            "limitGeneralField":"请选择显示字段",
+            "limitGeneralCode":"请输入通用代码",
+            "limitGeneralFieldVaild":"请输入通用字段",
+            "required":"请选择是否必填",
+        },
+        vaild:{
+            "fieldNameNumberVaild":"字段名应只包含（[A~Z,_,0~9])",
+            "fieldLabelNumberVaild":"标签应只包含（[A~Z,_,0~9,中文])",
+            "fieldLabel":"标签应只包含（[A~Z,a~z,0~9,_,中文])",
+            "fieldSize":"长度应只包含([0-9])",
+        },
+        message:{
+            "addMessage":"请选择一条需要维护的数据",
+            "fieldClickMessage":"请先选择代码名",
+        },
+        dialog:{
+            "title": "新增/编辑",
+            "codeTitle": "代码查询",
+            "fieldDialog":"显示字段查询",
+        },
+    },
+}

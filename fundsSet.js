@@ -1,0 +1,41 @@
+export default {
+  //ERP销售订单
+  fundsSet: {
+    fundsSetTable: {
+      "title": 'Printing网板比例维护',
+      "customer": "客户名称",
+      "custNameShort": "客户简称",
+      "operation": "工段(工艺)",
+      "customerStyleNo": "客户款号",
+      "factoryStyleCode": "本厂款号",
+      "partCode": "幅位",
+      "componentCode": "部位",
+      "color": "颜色",
+      "patternNo": "花型",
+      "size": "尺码",
+      "level": "等级",
+      "screenSetQty": "网板套数",
+      "transferNetTime": "转网时间",
+      "transferStyleTime": "转款时长",
+      "colorConversionDuration": "转色时长",
+      "transferSizeTime": "转尺码时长",
+      "xmlName": "转款时长设置.xls",
+      "transferLevel": "转款等级",
+      "duration": "时长",
+      "timeMinute": "时长(分钟)",
+      "rotatingParts": "转部件时长",
+      "edgeStyle": "边缘款",
+      "machineCode": "设备类型",
+      "xmlName1": "Knitting转款对应时长设置.xls",
+      "filmCode": '印花编号/菲林编号',
+      "netRate": '网板比例',
+      "subcontractor": '印花工厂',
+      "deliveryRequrements": '送片要求',
+      "ifSingle": '是否单码送片',
+      "checkRequrement": '印花查片要求',
+      "tools": '送片工具',
+      "isPrintToEdge": '是否到边款',
+      "countryArea": '区域',
+    }
+  }
+}

@@ -1,0 +1,71 @@
+export default {
+  productOrder: {
+    title: '生产工单',
+    subTitle: '生产工单编辑',
+    status: {
+      cancel: '取消',
+      plan: '计划中',
+      release: '下达',
+      product: '生产中',
+      end: '结束'
+    },
+    label: {
+      "customerCode": "客户代码",
+      "status": "订单状态",
+      "materialCode": "物料编码",
+      "moQty": "工单数量",
+      "unitName": "单位",
+      "receivedQty": "收货数量",
+      "unFinishedQty": "未完成数量",
+      "productionVersionCode": "生产版本编号",
+      "moStartDate": "开始日期",
+      "moFinishDate": "完成日期",
+      "moCreateTime": "工单创建日期",
+      "remark": "备注",
+      material: '物料',
+      customer: '客户',
+      apsId: 'APS ID',
+      mesOrder: 'MES order',
+      so: '销售订单',
+      soItem: '销售订单行号',
+      subItem: '子行号',
+      productionOrder: 'APS生产工单',
+      productionOrderType: '工单类型',
+      customerPo: '客户PO',
+      deliveryDate: '交货期',
+
+    },
+    placeholder: {
+      "siteName": "请选择工厂名称",
+      "mo": "请输入生产工单",
+      "customerCode": "请输入客户代码",
+      "status": "请选择订单状态",
+      "materialCode": "请输入物料编码",
+      "moQty": "请输入工单数量",
+      "unitName": "请选择单位",
+      "receivedQty": "请输入收货数量",
+      "unFinishedQty": "请输入未完成数量",
+      "productionVersionCode": "请选择生产版本编号",
+      "moStartDate": "请选择开始时间",
+      "moFinishDate": "请选择完成时间",
+      "moCreateTime": "请选择工单创建时间",
+      "remark": "请输入备注",
+      'apsId': '请选择APS ID',
+      'mesOrder': '请输入MES order',
+      so: '请输入销售订单',
+      soItem: '请输入销售订单行号',
+      subSoItem: '订单子行号',
+      customerPo: '请输入客户PO',
+    },
+    ruler: {
+      numRange: '数字范围：0-9999999999.999999',
+      unFinishedQtyNumber: '数字范围：0-9999999999999999',
+    },
+    duration: "时长：",
+    message: {
+      customerCode: '客户代码不存在,请重新输入',
+      customerName: '客户名称不存在,请重新输入',
+      materialCode: '物料编码不存在,请重新输入'
+    }
+  }
+}

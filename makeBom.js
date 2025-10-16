@@ -1,0 +1,39 @@
+export default {
+    //制造bom
+    makeBom:{
+        label:{
+            "productionVersionCode":"生产版本编号",
+            "routingCode":"工艺编号",
+            "itemNo":"工序序号",
+            "processCode":"工序编号",
+            "processName":"工序名称",
+            "preProcessNo":"前工序编号",
+            "directive":"指令类别",
+            "mark":"识别码",
+            "resourceCode":"物料/资源",
+            "resourceAppointNumber":"资源选定编号",
+            "forwardSettime":"前设置",
+            "forwardSettimeUnitName":"前设置单位",
+            "workingHours":"用量比例/制造时间",
+            "workingHoursUnitName":"制造时间单位",
+            "afterSettime":"后设置",
+            "afterSettimeUnitName":"后设置单位",
+            "timeConstraintMethod":"接续方法",
+            "timeConstraintMethodLotMin": "接续批量",
+            "timeConstraintMin":"移动时间MIN",
+            "timeConstraintMax":"移动时间MAX",
+            "timeConstraintUnitName":"移动时间单位",
+            "scrapQty":"废品数",
+            "passRate":"成品率",
+            "priority":"资源优先度",
+            "productionFactor":"制造效率",
+            "resourceQty":"必要资源量",
+            "exportTitle":"制造BOM报表",
+            "materialCode":"物料编码"
+        },
+        options:{
+            "mainResource":"主资源",
+            "secondaryResources":"副资源",
+        }
+    }
+}
