@@ -1,0 +1,123 @@
+export default {
+    warningRuleCommon:{
+      warningRule: "警告规则",
+      userAssignment: "用户分配",
+      messageTemplate: "消息模板",
+      dateBase: "基础信息",
+    
+    },
+    
+    warningRuleMessage:{    
+      warningNode:"请选择预警节点",
+      nodeStatus:"请选择节点状态",
+    
+    },
+    wznwarningRules:{
+    warningNode:"预警节点",
+    nodeStatus:"节点状态",
+    order:"订单",
+    },
+    //job管理开始
+    JOBtableCommon:{
+      jobDocument:"JOB文件",
+      executionTime:"开始执行时间",
+      executionFrequency:"执行频率",
+    },
+    JOBplaceholder:{
+      jobFile:"请选择JOB文件",
+      executionTime:"请选择开始执行时间",
+      executionFrequency:"请选择执行频率",
+    },
+    //job管理结束
+    //子节点定义开始
+    childNodeDefinitiontableCommon:{
+      preNodeCode:"前置节点"
+    },
+    childNodeDefinitionPlaceholder:{
+      preNodeCode:"请选择前置节点"
+    },
+    //子节点定义结束
+    //节点用户分配开始
+    nodeUserAllocationtableCommon:{
+      nodeAllocationName:"节点分配规则",
+      nodeAllocationDesc:"描述",
+      nodeCode:"预警节点",
+      nodeStatusName:"节点状态",
+      userName:"分配用户",
+    },
+    nodeUserAllocationPlaceholder:{
+      nodeAllocationName:"请输入节点分配规则",
+      nodeAllocationDesc:"请输入描述",
+      userName:"请选择分配用户",
+    },
+    //节点用户分配结束
+    //车间开始
+    workShoptableCommon:{
+      businessDepartment:"事业部",
+      productionDepartment:"生产部",
+    },
+    workShopPlaceholder:{
+      businessDepartment:"请输入事业部",
+      productionDepartment:"请输入生产部",
+    },
+    //车间结束
+    //提前期开始
+    leadTimeTableCommon:{
+      unit:"单位"
+    },
+    leadTimePlaceholder:{
+      unit:"请选择单位"
+    },
+    //提前期结束
+    //生产计划开始
+    productionPlan:{
+      title:"生产计划",
+      subTitle:"生产计划新增/编辑",
+    },
+    productionPlanTableCommon:{
+      businessDepartment:"事业部",
+      productionDepartment:"生产部",
+      workshop:"车间",
+      resourceCode:"线体",
+      so:"大单单号",
+      soItem:"行项目",
+      productOrderNo:"工单号",
+      styleNo:"款号",
+      type:"类型",
+      customer:"客户",
+      orderDescription:"订单描述",
+      qty:"订单数量",
+      changeOverDifficulty:"转款难度",
+      changeoverStartTime:"转款实际开始时间",
+      startDateTime:"生产计划日期",
+      qty:"订单条数量",
+      isOutside:"是否计划外转款",
+      outsideReason:"原因",
+    },
+    productionPlanTablePlaceholder:{
+      changeOverDifficulty:"请选择转款难度",
+      isOutside:"请选择是否计划外转款",
+      outsideReason:"请输入原因",
+    },
+    //生产计划结束
+    //转款汇总看板开始
+    transferSummaryDashboardTableCommon:{
+      orderStartDate:"订单生产日期"
+    },
+    //转款汇总看板结束
+    //款号前工序开始
+    ItemPreProcessTableCommon:{
+      siteName:"工厂",
+      siteCode:"工厂编码",
+      styleNo:"款号",
+      processName:"前工序",
+    },
+    ItemPreProcessPlaceholder:{
+     
+      siteCode:"请选择工厂编码",
+      processName:"请选择前工序",
+      styleNo:"请输入款号",
+     
+    },
+    //款号前工序结束
+}
